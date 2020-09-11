@@ -1,0 +1,60 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #CF2E1B;
+}
+div{
+    position: absolute;;
+    background-color: rgba(0, 0, 0, .8);
+    width: 400px;
+    left: 35%;
+    top:15%;
+    box-shadow: 0px 35px 25px red;
+    border-radius: 10px;
+}
+#form{
+    position: relative;
+    
+}
+h1,ol{
+    color: white;
+    position: relative;
+    left: 27%;
+}
+#input ,#input2{
+    margin-left: 0%;
+    position: relative;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    left: 20px;
+    width: 90%;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #EA301A;
+    opacity: 1; /* Firefox */
+  }
+  #button ,#reset{
+      position: relative;
+      border: none;
+      outline: none;
+      background: red;
+      color: white;
+      height: 23px;
+      line-height: 23px;
+      width: 50px;
+      text-align: center;
+      left:42%;
+      border-radius: 10px;
+    }
+    #button:hover{
+        border-radius: 5px;
+    }
+   #reset:hover{
+        border-radius: 5px;
+    }
+   div:hover{
+       box-shadow: 0px 35px 25px #FC95A5  ; 
+   }
